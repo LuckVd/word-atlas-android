@@ -1,0 +1,13 @@
+node_modules/
+www/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/capacitor-cordova-android-plugins/
+# cap sync 生成的 web 资产副本（718MB，由 www/ 经 cap copy 重建）
+android/app/src/main/assets/
+# 签名凭据（仓库只放参数化读取逻辑，凭据本地保留）
+signing.properties
+*.keystore
+*.jks
